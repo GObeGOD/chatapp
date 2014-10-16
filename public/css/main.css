@@ -1,0 +1,66 @@
+/*
+
+	CSS StyleSheet Chat Application
+	
+*/
+
+
+html, body {
+	margin:0px;
+	padding: 0px;
+	vertical-align: middle;
+     text-align: center;
+
+}
+
+html{
+	background-image: url('../img/geometry2.png');
+    background-repeat: repeat-x;
+
+}
+#messagebox {
+	padding-top: 1em;
+	margin-top: 1em;
+width: 600px;
+
+}
+
+#messageboxName{
+
+	color:#f7451b;
+}
+
+#sender{
+
+margin-bottom: 1em;
+
+}
+
+#messages {
+	width: 600px;
+	height: 300px;
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid #CCC;
+	overflow: auto;
+	background-color:#fff;
+	  display: block;
+	    text-align: left;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#input {
+	padding: 10px;
+}
+
+#feedback {
+	display: none;
+}
+
+strong{
+	color: #333333  ;
+
+}
